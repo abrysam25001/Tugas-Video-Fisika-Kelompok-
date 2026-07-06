@@ -23,15 +23,16 @@ materi = st.sidebar.selectbox(
 
 st.sidebar.markdown("---")
 
-# Profil Seluruh Anggota Kelompok di Sidebar (Format Seragam)
+# Profil Seluruh Anggota Kelompok di Sidebar (NPM di bawah Nama)
 st.sidebar.markdown("### 👨‍💻 Anggota Kelompok")
-st.sidebar.write("1. **Ziandara Rasendrya** (230210250003)")
-st.sidebar.write("2. **Helvina Ariella S. P** (230210250012)")
-st.sidebar.write("3. **Alya Kayyisah Santoso** (230210250015)")
-st.sidebar.write("4. **Hafzahtu Zuhri** (230210250019)")
-st.sidebar.write("5. **Heavenly Jibrilliant L.** (230210250023)")
-st.sidebar.write("6. **Abrysam Ariffa'iq** (230210250030)")
-st.sidebar.write("7. **Jaelani Azzamil P. R.** (230210250042)")
+
+st.sidebar.write("1. **Ziandara Rasendrya** \n&nbsp;&nbsp;&nbsp;&nbsp;(230210250003)")
+st.sidebar.write("2. **Helvina Ariella S. P** \n&nbsp;&nbsp;&nbsp;&nbsp;(230210250012)")
+st.sidebar.write("3. **Alya Kayyisah Santoso** \n&nbsp;&nbsp;&nbsp;&nbsp;(230210250015)")
+st.sidebar.write("4. **Hafzahtu Zuhri** \n&nbsp;&nbsp;&nbsp;&nbsp;(230210250019)")
+st.sidebar.write("5. **Heavenly Jibrilliant L.** \n&nbsp;&nbsp;&nbsp;&nbsp;(230210250023)")
+st.sidebar.write("6. **Abrysam Ariffa'iq** \n&nbsp;&nbsp;&nbsp;&nbsp;(230210250030)")
+st.sidebar.write("7. **Jaelani Azzamil P. R.** \n&nbsp;&nbsp;&nbsp;&nbsp;(230210250042)")
 
 st.sidebar.markdown("---")
 
