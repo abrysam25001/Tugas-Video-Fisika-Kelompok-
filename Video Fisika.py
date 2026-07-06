@@ -23,16 +23,16 @@ materi = st.sidebar.selectbox(
 
 st.sidebar.markdown("---")
 
-# Profil Seluruh Anggota Kelompok di Sidebar (NPM di bawah Nama)
+# Profil Seluruh Anggota Kelompok di Sidebar (Menggunakan tag HTML <br> agar pasti ke bawah)
 st.sidebar.markdown("### 👨‍💻 Anggota Kelompok")
 
-st.sidebar.write("1. **Ziandara Rasendrya** \n&nbsp;&nbsp;&nbsp;&nbsp;(230210250003)")
-st.sidebar.write("2. **Helvina Ariella S. P** \n&nbsp;&nbsp;&nbsp;&nbsp;(230210250012)")
-st.sidebar.write("3. **Alya Kayyisah Santoso** \n&nbsp;&nbsp;&nbsp;&nbsp;(230210250015)")
-st.sidebar.write("4. **Hafzahtu Zuhri** \n&nbsp;&nbsp;&nbsp;&nbsp;(230210250019)")
-st.sidebar.write("5. **Heavenly Jibrilliant L.** \n&nbsp;&nbsp;&nbsp;&nbsp;(230210250023)")
-st.sidebar.write("6. **Abrysam Ariffa'iq** \n&nbsp;&nbsp;&nbsp;&nbsp;(230210250030)")
-st.sidebar.write("7. **Jaelani Azzamil P. R.** \n&nbsp;&nbsp;&nbsp;&nbsp;(230210250042)")
+st.sidebar.markdown("1. **Ziandara Rasendrya**<br>&nbsp;&nbsp;&nbsp;&nbsp;(230210250003)", unsafe_allow_html=True)
+st.sidebar.markdown("2. **Helvina Ariella S. P**<br>&nbsp;&nbsp;&nbsp;&nbsp;(230210250012)", unsafe_allow_html=True)
+st.sidebar.markdown("3. **Alya Kayyisah Santoso**<br>&nbsp;&nbsp;&nbsp;&nbsp;(230210250015)", unsafe_allow_html=True)
+st.sidebar.markdown("4. **Hafzahtu Zuhri**<br>&nbsp;&nbsp;&nbsp;&nbsp;(230210250019)", unsafe_allow_html=True)
+st.sidebar.markdown("5. **Heavenly Jibrilliant L.**<br>&nbsp;&nbsp;&nbsp;&nbsp;(230210250023)", unsafe_allow_html=True)
+st.sidebar.markdown("6. **Abrysam Ariffa'iq**<br>&nbsp;&nbsp;&nbsp;&nbsp;(230210250030)", unsafe_allow_html=True)
+st.sidebar.markdown("7. **Jaelani Azzamil P. R.**<br>&nbsp;&nbsp;&nbsp;&nbsp;(230210250042)", unsafe_allow_html=True)
 
 st.sidebar.markdown("---")
 
